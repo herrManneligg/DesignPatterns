@@ -19,8 +19,12 @@ package Bridge;
 //
 //		The bridge pattern is a design pattern used in software engineering
 //		that is meant to "decouple an abstraction from its implementation
-//		so that the two can vary independently"
+//		so that the two can vary independently".
 //
+//	@MyObservations
+//
+//		This resembles an extension of the Adapter pattern.
+//	
 
 public interface Weapon {
 
