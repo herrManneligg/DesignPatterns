@@ -14,6 +14,16 @@ public class Composite {
 		children = new ArrayList<>();
 	}
 
+
+	// Add and remove just call the ArrayList methods
+	public void add(Leaf a) {
+		children.add(a);
+	}
+
+	public void remove(Leaf a) {
+		children.remove(a);
+	}
+
 	public Double compPrice(Double discount) {
 		
 		Double price = 0.0;
@@ -25,16 +35,7 @@ public class Composite {
 		}
 		return price;
 	}
-
-	// Add and remove just call the ArrayList methods
-	public void add(Leaf a) {
-		children.add(a);
-	}
-
-	public void remove(Leaf a) {
-		children.remove(a);
-	}
-
+	
 	// A nice toString method that displays the composite name
 	// and the children names
 	public String toString() {
