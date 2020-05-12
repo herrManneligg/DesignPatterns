@@ -1,4 +1,4 @@
-#Applicability
+# Applicability
 Use the Adapter pattern when
 
 you want to use an existing class, and its interface does not match the one you need

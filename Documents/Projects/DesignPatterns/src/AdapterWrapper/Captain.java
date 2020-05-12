@@ -17,6 +17,9 @@ public class Captain {
 		var captain = new Captain(new FishingBoatAdapter());
 		captain.row();
 	}
+	
+	
+	
 }
 
 
